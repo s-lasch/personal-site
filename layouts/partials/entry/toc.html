@@ -1,9 +1,0 @@
-{{- $toc := default .Site.Params.Entry.toc .Params.toc -}}
-{{- $tocOpen := default .Site.Params.Entry.tocOpen .Params.tocOpen -}}
-
-{{- if $toc }}
-<aside class="tableOfContentContainer" id="tableOfContentContainer">
-	<h3>Table of Content</h3>
-	{{ .TableOfContents }}
-</aside>
-{{- end }}
