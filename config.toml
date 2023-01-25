@@ -4,200 +4,142 @@ title                         = "Wisnuwiry"
 theme                         = "personal-site"
 summaryLength                 = 10
 
-[Author] # Used in authorbox
-  name                        = "Jhon Doe"
-  bio                         = ""
-  avatar                      = "img/avatar.webp"
-  job                         = "Software Engineer"
-  gender                      = "male"
-  email                       = "jhon-doe@gmail.com"
-
+[Author]
+avatar = "img/avatar.webp"
+bio = "We love technology, as technology has the power to solve our many problems within just a minute."
+donate = true
+email = "jhondoe@gmail.com"
+gender = "male"
+job = "Software Engineer"
+name = "John Doe"
 
 [Params]
-  subTitle                    = "Personal site, Blog, and Portfolio"
-  description                 = "Sebuah catatan dan blog pribadi saya. Saya juga akan membagi tentang pengalaman saya dan teknologi-teknolgi yang saya gunakan/pelajari atau yang sedang populer." # Site Description. Used in meta description
-  images                      = ["img/avatar.webp"]
-  copyright                   = "Wisnuwiry" # Copyright holder, otherwise will use .Site.Title
-  opengraph                   = true # Enable OpenGraph if true
-  twitter_cards               = true # Enable Twitter Cards if true
-  mainSections                = ["post"] # Set main page sections
-  dateFormat                  = "January 02, 2006" # Change the format of dates
-  # customCSS                 = ["css/custom.css"] # Include custom CSS files
-  customJS                    = []
-  mainMenuAlignment           = "right" # Align main menu (desktop version) to the right side
-  authorbox                   = true # Show authorbox at bottom of single pages if true
-  comments                    = true # Enable comments for all site pages
-  related                     = true # Enable Related content for single pages
-  relatedMax                  = 5
-  mathjax                     = false # Enable MathJax for all site pages
-  hideNoPostsWarning          = false # Don't show no posts empty state warning in main page, if true
-  fontUnit                    = "em"
-  largestFontSize             = 2.5
-  smallestFontSize            = 1
-  googleSearchConsole         = ""
-  # GoogleAnalytics             = ""
-  # fb_admins                   = 
-  # fb_app_id                   = 
-  paginateLength              = 5
-  # adsenseId                   = 
+GoogleAnalytics = ""
+authorbox = true
+comments = true
+copyright = "jhondoe"
+customJS = []
+customSearchId = ""
+dateFormat = "January 02, 2006"
+description = "Sebuah catatan dan blog pribadi saya. Saya juga akan membagi tentang pengalaman saya dan teknologi-teknolgi yang saya gunakan/pelajari atau yang sedang populer."
+editContentPageLink = "https://github.com/jhondoe/blog-v2/edit/master/content/"
+endMessagePost = "Terdapat kesalahan penulisan, typo, ataupun juga kurang sesuai dalam penulisan, bantu Saya"
+fb_admins = ""
+fb_app_id = ""
+fontUnit = "em"
+formspreeId = ""
+googleSearchConsole = ""
+hideNoPostsWarning = false
+images = ["img/avatar.webp"]
+largestFontSize = 2.5
+mainMenuAlignment = "right"
+mainSections = ["post", "snippet"]
+mathjax = false
+opengraph = true
+paginateLength = 5
+related = true
+relatedMax = 5
+smallestFontSize = 1
+subTitle = "Personal site, Blog, and Portfolio"
+twitter_cards = true
 
-  # Google Search custom, more info: https://cse.google.com/cse/all
-  customSearchId              = "004021659876411083349:a2ysxpichpc"
-
-  endMessagePost              = "Wrong content? "
-  
-  # Link repo to edit content
-  editContentPageLink         = "https://github.com/wisnuwiry/blog-v2/edit/master/content/"
-  
-  # Formspree form contact id, more info: https://cse.google.com/cse/all
-  formspreeId                 = ""
-  
-
-[Params.Hero]
-  title                       = "A Personal Site By Jhon Doe"
-  desc                        = "Welcome to my Blog :)"
-
-[Params.Entry]
-  meta                        = ["date", "categories"] # Enable meta fields in given order
-  toc                         = true # Enable Table of Contents
-  tocOpen                     = false # Open Table of Contents block. Optional
-
-[Params.Featured]
-  previewOnly                 = false # Show only preview featured image
+[Params.Breadcrumb]
+enable = true
+homeText = "Home"
 
 [Params.Comments]
-  repository                  = "" # Repository to host your comment, ex: username/repo
+repository = "jhondoe/blog-v2"
 
-# Navigation bar
-[menu]
+[Params.Entry]
+meta = ["date"]
+toc = true
 
-[[menu.main]]
-identifier = "Post"
-pre = "📝"
-url = "/post" 
-weight = 1 
+[Params.Hero]
+title = "Hello, I'm John Doe"
+desc = "Seorang ~Software Engineer~ yang suka dengan berbagi."
 
-[[menu.main]]
-identifier = "Snippet"
-pre = "⚒️"
-url = "/snippet" 
-weight = 2 
+[Params.Manifest]
+backgroundColor = "#8dc153"
+description = "Personal Site By Jhondoe"
+display = "standalone"
+name = "Jhondoe Blog"
+orientation = "portrait"
+scope = "/"
+shortName = "Jhondoe"
+startUrl = "/?utm_source=homescreen"
+themeColor = "#1da1f2"
 
-[[menu.main]]
-identifier = "Project"
-pre = "🚧"
-url = "/project" 
-weight = 3 
+[Params.Share]
+facebook = true
+linkedin = true
+pinterest = true
+reddit = true
+telegram = true
+twitter = true
 
-[[menu.main]]
-identifier = "About"
-pre = "😃"
-url = "/about" 
-weight = 4
+[Params.Social]
+github = "jhondoe"
+gitlab = "jhondoe"
+linkedin = "wisnu-saputra"
+medium = "jhondoe"
+telegram = "jhondoe"
+twitter = "jhondoe"
+[markup.highlight]
+codeFences = true
+guessSyntax = false
+hl_Lines = ""
+lineNoStart = 1
+lineNos = true
+lineNumbersInTable = true
+noClasses = false
+style = "dracula"
+tabWidth = 4
+
+[markup.tableOfContents]
+endLevel = 3
+ordered = false
+startLevel = 2
 
 [[menu.main]]
 identifier = "Contact"
 pre = "🤙"
-url = "/contact" 
+url = "/contact"
+weight = 6
+[[menu.main]]
+identifier = "About"
+pre = "😃"
+url = "/about"
 weight = 5
+[[menu.main]]
+identifier = "Snippet"
+pre = "⚒️"
+url = "/snippet"
+weight = 3
+[[menu.main]]
+identifier = "Post"
+pre = "📝"
+url = "/post"
+weight = 2
+[[menu.main]]
+identifier = "Series"
+pre = "🗂️"
+url = "/series"
+weight = 1
 
-[Params.Breadcrumb]
-  enable                      = true # Enable breadcrumb block globally
-  homeText                    = "Home" # Home node text
-
-[Params.Social]
-  twitter                     = "jhon-doe"
-  telegram                    = "jhon-doe"
-# instagram                   = "jhon-doe"
-  linkedin                    = "wisnu-saputra"
-  github                      = "jhon-doe"
-  gitlab                      = "jhon-doe"
-  medium                      = "jhon-doe"
-
-[Params.Share] # Entry Share block
-  facebook                    = true
-  twitter                     = true
-  reddit                      = true
-  telegram                    = true
-  linkedin                    = true
-  pinterest                   = true
-
-# Web App Manifest settings
-# https://www.w3.org/TR/appmanifest/
-# https://developers.google.com/web/fundamentals/web-app-manifest/
-[Params.Manifest]
-  name                        = "Wisnuwiry"
-  shortName                   = "Wisnuwiry"
-  display                     = "standalone"
-  startUrl                    = "/?utm_source=homescreen"
-  backgroundColor             = "#8dc153"
-  themeColor                  = "#1da1f2"
-  description                 = "Personal Site By Wisnuwiry"
-  orientation                 = "portrait"
-  scope                       = "/"
-
-[outputFormats]
-  [outputFormats.MANIFEST]
-    mediaType                 = "application/json"
-    baseName                  = "manifest"
-    isPlainText               = true
-    notAlternative            = true
+[outputFormats.MANIFEST]
+baseName = "manifest"
+isPlainText = true
+mediaType = "application/json"
+notAlternative = true
 
 [outputs]
-  home                        = ["HTML", "RSS", "MANIFEST"]
+Paginate = 5
+enableRobotsTXT = true
+home = ["HTML", "RSS", "MANIFEST"]
 
-enableRobotsTXT               = true
-
-# Pagination
-Paginate                      = 3
- 
-
-# Code
-[markup]
-  # defaultMarkdownHandler    = "blackfriday"
-  [markup.goldmark]
-    [markup.goldmark.extensions]
-      definitionList          = true
-      footnote                = true
-      linkify                 = true
-      strikethrough           = true
-      table                   = true
-      taskList                = true
-      typographer             = true
-    [markup.goldmark.parser]
-      attribute               = true
-      autoHeadingID           = true
-      autoHeadingIDType       = "github"
-    [markup.goldmark.renderer]
-      hardWraps               = false
-      unsafe                  = true
-      xhtml                   = false
-  [markup.blackFriday]
-    angledQuotes              = false
-    footnoteAnchorPrefix      = ""
-    footnoteReturnLinkContents= ""
-    fractions                 = true
-    hrefTargetBlank           = false
-    latexDashes               = true
-    nofollowLinks             = false
-    noreferrerLinks           = false
-    plainIDAnchors            = true
-    skipHTML                  = false
-    smartDashes               = true
-    smartypants               = true
-    smartypantsQuotesNBSP     = false
-    taskLists                 = true
-  [markup.highlight]
-    codeFences                = true
-    guessSyntax               = false
-    hl_Lines                  = ""
-    lineNoStart               = 1
-    lineNos                   = false
-    lineNumbersInTable        = false
-    noClasses                 = false
-    style                     = "dracula"
-    tabWidth                  = 4
-  [markup.tableOfContents]
-    endLevel                  = 3
-    ordered                   = false
-    startLevel                = 2
+[sitemap]
+changeFreqPage = "monthly"
+changefreq = "daily"
+filename = "sitemap.xml"
+priority = 1
+priorityPage = 0.5
