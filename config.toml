@@ -5,7 +5,7 @@ theme                         = "personal-site"
 summaryLength                 = 10
 
 [Author]
-avatar = "img/avatar.webp"
+avatar = "https://avatars.githubusercontent.com/u/91107394?v=4"
 bio = "Data scientist with experience in data processing, data visualization, and machine learning. Dedicated to utilizing programming and analytical skills to create data-driven products."
 donate = false
 email = "slasch44@lakers.mercyhurst.edu"
