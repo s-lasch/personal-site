@@ -1,5 +1,5 @@
 ---
-title: Snippet ⚒️
+title: Snippet
 toc: false
 authorBox: false
 breadcrumb: false
