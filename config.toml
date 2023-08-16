@@ -56,7 +56,7 @@ toc = true
 
 [Params.Hero]
 title = "Hello! I'm Steven Lasch."
-desc = "A ~data-driven~ professional."
+desc = "A data-driven professional."
 
 [Params.Manifest]
 backgroundColor = "#8dc153"
