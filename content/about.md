@@ -1,5 +1,5 @@
 ---
-title: About 😃
+title: About
 toc: false
 authorBox: false
 breadcrumb: false
