@@ -1,5 +1,5 @@
 ---
-title: Contact 📨️
+title: Contact
 menu: main
 toc: false
 authorBox: false
