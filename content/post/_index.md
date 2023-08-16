@@ -1,5 +1,5 @@
 ---
-title: Post 📝
+title: Post
 toc: false
 authorBox: false
 breadcrumb: false
