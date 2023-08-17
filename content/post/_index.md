@@ -1,5 +1,5 @@
 ---
-title: Post
+title: Blog Posts
 toc: false
 authorBox: false
 breadcrumb: false
