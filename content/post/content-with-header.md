@@ -3,7 +3,7 @@ title: "Binomial Logistic Regression"
 date: 2023-08-16T10:14:00-04:00
 tags: ["regression", "ml"]
 images: [
-    https://source.unsplash.com/LPckxbrqE5w/500x1000,
+    https://source.unsplash.com/LPckxbrqE5w/,
 ]
 toc: true
 ---
