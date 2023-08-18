@@ -139,3 +139,6 @@ changefreq = "daily"
 filename = "sitemap.xml"
 priority = 1
 priorityPage = 0.5
+
+[markup.goldmark.renderer]
+unsafe= true
