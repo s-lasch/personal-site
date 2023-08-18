@@ -29,7 +29,7 @@ These predictions are not fit to a line, as is the case with linear
 regression models. Instead, logistic regression models are fit to a
 **sigmoid** function, shown to the right.
 
-Sigmoid functions can be modelled using the following equation: $\large{f(x) = \frac{1}{1 + e^{-y}}}$
+Sigmoid functions can be modelled using the following equation: $$\large{f(x) = \frac{1}{1 + e^{-y}}}$$
 
 For each $x$, the resulting $y$ value represents the probability that a
 result is True. In the COVID-19 example, this represents how confident a
