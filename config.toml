@@ -97,30 +97,30 @@ ordered = false
 startLevel = 2
 
 [[menu.main]]
-identifier = "Contact"
+identifier = "Resume"
 pre = ""
-url = "/contact"
+url = "/resume"
 weight = 6
 [[menu.main]]
 identifier = "About"
 pre = ""
 url = "/about"
 weight = 5
-[[menu.main]]
-identifier = "Snippet"
-pre = ""
-url = "/snippet"
-weight = 3
+# [[menu.main]]
+# identifier = "Snippet"
+# pre = ""
+# url = "/snippet"
+# weight = 3
 [[menu.main]]
 identifier = "Posts"
 pre = ""
 url = "/post"
 weight = 2
-[[menu.main]]
-identifier = "Series"
-pre = ""
-url = "/series"
-weight = 1
+# [[menu.main]]
+# identifier = "Series"
+# pre = ""
+# url = "/series"
+# weight = 1
 
 [outputFormats.MANIFEST]
 baseName = "manifest"
