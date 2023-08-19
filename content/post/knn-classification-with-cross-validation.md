@@ -1,6 +1,14 @@
----
-
----
++++
+author = "Steven Lasch"
+title = "kNN Classification With Cross-Validation"
+date = "2023-05-26"
+tags = [
+    "ml",
+    "classification metrics",
+    "knn",
+    "projects"
+]
++++
 
 This article goes into detail about the implementation of cross-validation for $k$-NN classifiers, ties, and touches on confusion matrices. Links to external references are provided, and it is also recommended to use other sources to cross-validate *my* work with that of others! 😉
 
