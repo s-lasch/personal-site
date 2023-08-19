@@ -1,8 +1,8 @@
 ---
-title: "Example with ToC (Table Of Content)"
+title: "Visualizing kNN Data"
 date: 2023-06-12T10:22:10+07:00
-tags: ["data viz", "plotly"]
-toc: true
+tags: ["data viz", "plotly", "ml", "knn"]
+toc: false
 ---
 
 Below is a scatter matrix plot showing all combinations of 5 variables, `GOL`, `NOL`, `BNL`, `BBH`, and `XCB`. More information on what these variables represent can be found [here](https://www.rdocumentation.org/packages/TestDimorph/versions/0.4.1/topics/Howells).
