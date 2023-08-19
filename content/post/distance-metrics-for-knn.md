@@ -1,4 +1,14 @@
-
++++
+author = "Steven Lasch"
+title = "Distance Metrics for kNN"
+date = "2023-06-07"
+description = "Distance metrics are a crucial component of a kNN algorithm. They determine how the distance between data points of different classes. Generally speaking, data points closer together are of the same class."
+tags = [
+    "ml",
+    "classification metrics",
+    "knn"
+]
++++
 
 > **NOTE:** *all figures in this post were made by the author using* $\LaTeX$, `numpy`, and `matplotlib`
 
