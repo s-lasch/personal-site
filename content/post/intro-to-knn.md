@@ -1,3 +1,7 @@
+---
+math: true
+---
+
 +++
 author = "Steven Lasch"
 title = "Introduction to k-NN"
