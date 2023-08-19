@@ -37,7 +37,7 @@ Precision measures how precise or accurate the positive predictions of a classif
       <img src="https://raw.githubusercontent.com/s-lasch/s-lasch.github.io/3bceb851cbbbde4cb5660a4ca31e25864ebfd049/images/precision.svg" />
 </p>
 
-Let's calculate precision for the `BERGF` class. We need the true positives, \(M_{1,1}\), and the false positives, \(M_{1,2} + M_{1,3} + M_{1,4}\)
+Let's calculate precision for the `BERGF` class. We need the true positives, \( M_{1,1} \), and the false positives, \( M_{1,2} + M_{1,3} + M_{1,4} \)
 <p align="center">
       <img src="https://raw.githubusercontent.com/s-lasch/s-lasch.github.io/2cd26b6067f845aad6e9c9fa5fa0c1912a07d438/images/bergf_prec.svg" />
 </p>
@@ -53,7 +53,7 @@ Recall, also known as sensitivity or true positive rate, measures the ability of
       <img src="https://raw.githubusercontent.com/s-lasch/s-lasch.github.io/3bceb851cbbbde4cb5660a4ca31e25864ebfd049/images/recall.svg" />
 </p>
 
-Let's calculate recall for the `BERGM` class. We need the true positives, \(M_{2,2}\), and the false negatives, \(M_{1,2} + M_{3,2} + M_{4,2}\)
+Let's calculate recall for the `BERGM` class. We need the true positives, \( M_{2,2} \), and the false negatives, \( M_{1,2} + M_{3,2} + M_{4,2} \)
 <p align="center">
       <img src="https://raw.githubusercontent.com/s-lasch/s-lasch.github.io/2cd26b6067f845aad6e9c9fa5fa0c1912a07d438/images/bergm_rec.svg" />
 </p>
