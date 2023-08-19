@@ -75,11 +75,11 @@ linkedin = true
 
 [Params.Social]
 github = "s-lasch"
-gitlab = "jhondoe"
+# gitlab = "jhondoe"
 linkedin = "steven-l-lasch"
 medium = "stevenlasch17"
-telegram = "jhondoe"
-twitter = "jhondoe"
+# telegram = "jhondoe"
+# twitter = "jhondoe"
 [markup.highlight]
 codeFences = true
 guessSyntax = false
