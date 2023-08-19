@@ -1,6 +1,6 @@
 ---
 title: "Example with ToC (Table Of Content)"
-date: 2020-10-29T10:22:10+07:00
+date: 2020-06-12T10:22:10+07:00
 tags: ["data viz", "plotly"]
 toc: true
 ---
