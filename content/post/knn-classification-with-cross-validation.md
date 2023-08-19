@@ -1,3 +1,7 @@
+---
+math: true
+---
+
 +++
 author = "Steven Lasch"
 title = "kNN Classification With Cross-Validation"
