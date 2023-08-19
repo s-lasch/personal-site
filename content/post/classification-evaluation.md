@@ -1,6 +1,6 @@
 +++
 author = "Steven Lasch"
-title = "Classification Exaluation Metrics"
+title = "Classification Evaluation Metrics"
 date = "2023-05-22"
 description = "Displays the math behind some of the most common evaluation metrics fora  classification problem in machine learhing."
 tags = [
