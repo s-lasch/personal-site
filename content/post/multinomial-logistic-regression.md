@@ -8,6 +8,7 @@ tags: [
     "projects"
 ]
 toc: true
+math: true
 ---
 
 Multinomial logistic regression is a statistical method used for predicting categorical outcomes with more than two categories. It is particularly useful when the dependent variable is categorical rather than continuous.
