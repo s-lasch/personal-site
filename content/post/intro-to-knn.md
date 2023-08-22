@@ -1,7 +1,3 @@
----
-math: true
----
-
 +++
 author = "Steven Lasch"
 title = "Introduction to k-NN"
@@ -12,6 +8,7 @@ tags = [
 ]
 series = ["K-Nearest Neighbors"]
 aliases = ["knn"]
+mathjax = true
 +++
 
 > **NOTE:** *all data and figures in this post are made using* `numpy` *and* `matplotlib`. 
