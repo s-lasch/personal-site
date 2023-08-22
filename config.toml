@@ -97,15 +97,20 @@ ordered = false
 startLevel = 2
 
 [[menu.main]]
+identifier = "Contact"
+pre = ""
+url = "/contact"
+weight = 4
+[[menu.main]]
 identifier = "Resume"
 pre = ""
 url = "/resume"
-weight = 6
+weight = 3
 [[menu.main]]
 identifier = "About"
 pre = ""
 url = "/about"
-weight = 5
+weight = 2
 # [[menu.main]]
 # identifier = "Snippet"
 # pre = ""
@@ -115,7 +120,7 @@ weight = 5
 identifier = "Posts"
 pre = ""
 url = "/post"
-weight = 2
+weight = 1
 # [[menu.main]]
 # identifier = "Series"
 # pre = ""
