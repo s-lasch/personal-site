@@ -1,7 +1,3 @@
----
-math: true
----
-
 +++
 author = "Steven Lasch"
 title = "Distance Metrics for kNN"
@@ -12,6 +8,7 @@ tags = [
     "classification metrics",
     "knn"
 ]
+mathjax = true
 +++
 
 > **NOTE:** *all figures in this post were made by the author using* $\LaTeX$, `numpy`, and `matplotlib`
