@@ -78,7 +78,7 @@ github = "s-lasch"
 # gitlab = "jhondoe"
 linkedin = "steven-l-lasch"
 medium = "stevenlasch17"
-telegram = "Steven Lasch"
+telegram = "stevenlasch"
 # twitter = "jhondoe"
 [markup.highlight]
 codeFences = true
