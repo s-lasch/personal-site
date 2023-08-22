@@ -2,7 +2,7 @@ baseURL = "https://example.com/"
 languageCode = "en-US"
 title = "Byte-Size ML: Steven Lasch personal website and blog"
 theme = "personal-site"
-summaryLength = 10
+summaryLength = 5
 
 [Author]
 avatar = "https://avatars.githubusercontent.com/u/91107394?v=4"
