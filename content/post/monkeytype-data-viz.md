@@ -6,6 +6,7 @@ images: [
 ]
 tags: ["data viz", "plotly", "projects"]
 toc: false
+mathjax: true
 ---
 
 # Background
