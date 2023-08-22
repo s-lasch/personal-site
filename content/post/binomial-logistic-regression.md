@@ -6,7 +6,7 @@ images: [
     https://source.unsplash.com/u0vgcIOQG08/,
 ]
 toc: true
-math: true
+mathjax: true
 ---
 
 # Binomial Logistic Regression
