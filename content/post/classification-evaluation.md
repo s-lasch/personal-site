@@ -8,7 +8,7 @@ tags = [
     "classification metrics",
     "knn"
 ]
-math = true
+mathjax = true
 +++
 
 Below are some of the most common evaluation metrics used for classification models. For a binary classifier, this is very straight-forward, but for a multi-class classifier, we need some more intuition about a confusion matrix. For a quick reminder, we will be using the following matrices from my previous article about [Confusion Matrices](https://s-lasch.github.io/2023/05/22/Confusion-Matrices.html):
