@@ -100,6 +100,10 @@ startLevel = 2
 identifier = "Contact"
 pre = ""
 url = "/contact"
+weight = 5
+identifier = "Presentations"
+pre = ""
+url = "/presentations"
 weight = 4
 [[menu.main]]
 identifier = "Resume"
