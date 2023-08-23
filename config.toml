@@ -101,6 +101,7 @@ identifier = "Contact"
 pre = ""
 url = "/contact"
 weight = 5
+[[menu.main]]
 identifier = "Presentations"
 pre = ""
 url = "/presentations"
