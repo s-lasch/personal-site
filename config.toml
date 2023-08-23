@@ -121,11 +121,11 @@ weight = 2
 # pre = ""
 # url = "/snippet"
 # weight = 3
-[[menu.main]]
-identifier = "Posts"
-pre = ""
-url = "/post"
-weight = 1
+# [[menu.main]]
+# identifier = "Posts"
+# pre = ""
+# url = "/post"
+# weight = 1
 # [[menu.main]]
 # identifier = "Series"
 # pre = ""
