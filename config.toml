@@ -32,7 +32,7 @@ googleSearchConsole = ""
 hideNoPostsWarning = false
 images = ["https://avatars.githubusercontent.com/u/91107394?v=4"]
 largestFontSize = 2.5
-mainMenuAlignment = "right"
+mainMenuAlignment = "center"
 mainSections = ["post", "snippet"]
 mathjax = true
 opengraph = true
