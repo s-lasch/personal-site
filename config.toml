@@ -30,7 +30,7 @@ fontUnit = "em"
 formspreeId = "mvojardv"
 googleSearchConsole = ""
 hideNoPostsWarning = false
-images = ["img/avatar.webp"]
+images = ["https://avatars.githubusercontent.com/u/91107394?v=4"]
 largestFontSize = 2.5
 mainMenuAlignment = "right"
 mainSections = ["post", "snippet"]
