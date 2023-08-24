@@ -1,12 +1,9 @@
 ---
-title: Personal Site Blog dan Portofolio
-date: 2020-03-21T17:33:17+07:00
+title: Hugo Markdown Guide
+date: 2023-04-24T17:33:17+07:00
 authorBox: false
 tags: ["web", "hugo", "personal site", "blog"]
-images: [
-  https://i.ibb.co/DbJ5J52/featured.png,
-  https://i.ibb.co/TM7pc2B/analisis-web-wisnuwiry.png
-]
+mathjax: true
 ---
 
 This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.
@@ -44,6 +41,16 @@ The blockquote element represents content that is quoted from another source, op
 > — <cite>Rob Pike[^1]</cite>
 
 [^1]: The above quote is excerpted from Rob Pike's [talk](https://www.youtube.com/watch?v=PAAkCSZUG1c) during Gopherfest, November 18, 2015.
+
+## Math
+
+Use display mode, `$$...$$` and `\[ ... \]`, or in-line math mode with `$...$` and `\( ... \)`.
+
+#### Display
+$$f(x) = \frac{x^2}{2x-7}$$
+
+#### In-line
+Using the equation $E=mc^2$, we can see an example of in-line mathematics.
 
 ## Tables
 
