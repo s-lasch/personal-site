@@ -14,7 +14,7 @@ This article assumes that the reader has at least *some* familiarity with Python
 
 Github is good for many things, and serving static websites is no exception. The drawback is that files stored on a Github repo cannot be accessed in the same way that a standard <abbr title="Content Delivery Network">CDN</abbr> would. Thus, using a link to the file directly results in this:
 
-![image-20230823212019025](C:\Users\Steven Lasch\AppData\Roaming\Typora\typora-user-images\image-20230823212019025.png)
+![text-type-results](https://rawcdn.githack.com/s-lasch/personal-site/4f62260ebb048c5365a9e30ac2f3f40e609eea2b/images/text-type-results.png)
 
 To get around this, we need a way to serve the file as a **content-type**, which we will delve into below[^1].
 
