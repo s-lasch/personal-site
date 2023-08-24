@@ -89,4 +89,4 @@ Now, using the same code, we can clearly see that it works:
 [^1]: [How to display plotly graph on github pages? - 📊 Plotly Python - Plotly Community Forum](https://community.plotly.com/t/how-to-display-plotly-graph-on-github-pages/44398)
 [^2]: [Raw HTML getting omitted in 0.60.0 - support - HUGO (gohugo.io)](https://discourse.gohugo.io/t/raw-html-getting-omitted-in-0-60-0/22032)
 
-[:arrow_up_small: back to top](#about)
+[🔼 back to top](#about)
