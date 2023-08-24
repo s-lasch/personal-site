@@ -84,9 +84,10 @@ Now, using the same code, we can clearly see that it works:
 		src="https://rawcdn.githack.com/s-lasch/s-lasch.github.io/5ac4853d6acfc41a3e45f33062fab314eee8eaf9/_includes/scatter_matrix.html"
 		style="height: 820px; width:110%; border: none;"></iframe>
 
+<br/>
+[🔼 back to top](#about)
+
 ## References
 
 [^1]: [How to display plotly graph on github pages? - 📊 Plotly Python - Plotly Community Forum](https://community.plotly.com/t/how-to-display-plotly-graph-on-github-pages/44398)
 [^2]: [Raw HTML getting omitted in 0.60.0 - support - HUGO (gohugo.io)](https://discourse.gohugo.io/t/raw-html-getting-omitted-in-0-60-0/22032)
-
-[🔼 back to top](#about)
