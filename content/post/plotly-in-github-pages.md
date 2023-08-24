@@ -8,9 +8,9 @@ images: [
 toc: true
 ---
 
-## FYI
-
 This article assumes that the reader has at least *some* familiarity with Python, as well as limited experience in using Markdown files for static websites.
+
+## About
 
 Github is good for many things, and serving static websites is no exception. The drawback is that files stored on a Github repo cannot be accessed in the same way that a standard <abbr title="Content Delivery Network">CDN</abbr> would. Thus, using a link to the file directly results in this:
 
@@ -88,3 +88,5 @@ Now, using the same code, we can clearly see that it works:
 
 [^1]: [How to display plotly graph on github pages? - 📊 Plotly Python - Plotly Community Forum](https://community.plotly.com/t/how-to-display-plotly-graph-on-github-pages/44398)
 [^2]: [Raw HTML getting omitted in 0.60.0 - support - HUGO (gohugo.io)](https://discourse.gohugo.io/t/raw-html-getting-omitted-in-0-60-0/22032)
+
+[:arrow_up_small: back to top](#About)
