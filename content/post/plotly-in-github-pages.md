@@ -3,7 +3,7 @@ title: "Using Plotly in Github Pages"
 date: 2023-08-23T10:14:00-04:00
 tags: ["plotly", "hugo", "github pages", "plotly github"]
 images: [
-    https://source.unsplash.com/jrh5lAq-mIs/,
+    https://source.unsplash.com/hpjSkU2UYSU/,
 ]
 toc: true
 ---
