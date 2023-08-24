@@ -85,7 +85,7 @@ Now, using the same code, we can clearly see that it works:
 		style="height: 820px; width:110%; border: none;"></iframe>
 
 <br/>
-[🔼 back to top](https://steven-lasch.com/post/plotly-in-github-pages/#about)
+🔼[back to top](#about)
 
 ## References
 
