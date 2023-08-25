@@ -145,11 +145,12 @@ Giving us:
  (10, 10, 10)]
 ```
 
-Now to create our plot, we will use `plotly.graph_objs` to display the cube. 
+Now to create our plot, we will use `plotly.graph_objs` to display the cube, allowing for interactivity. 
 
 ```python
 import plotly.graph_objs as go
 
+# create the figure
 fig = go.Figure(data=[go.Scatter3d(x=[i[0] for i in cartesian_product], # access the 'x' values
                                    y=[i[1] for i in cartesian_product], # access the 'y' values
                                    z=[i[2] for i in cartesian_product], # access the 'z' values
@@ -173,6 +174,7 @@ X, Y, Z = set(range(1, 11)), set(range(1, 11)), [1 for i in range(1,11)] # keep 
 # apply cartesian product formula
 cartesian_product = [(x,y,z) for x in X for y in Y for z in Z]
 
+# create the figure
 fig = go.Figure(data=[go.Scatter3d(x=[i[0] for i in cartesian_product],
                                    y=[i[1] for i in cartesian_product],
                                    z=[i[2] for i in cartesian_product],
@@ -192,7 +194,4 @@ fig.show()
 [^1]: [ADS Cartesian Products and Power Sets (discretemath.org)](https://discretemath.org/ads/s-cartesian_Products_and_Power_Sets.html)
 [^2]: [SQL CROSS JOIN Explained By a Practical Example (sqltutorial.org)](https://www.sqltutorial.org/sql-cross-join/)
 [^3]: [Cartesian Product of Sets – The Math Doctors](https://www.themathdoctors.org/cartesian-product-of-sets/#:~:text=In particular%2C the Cartesian product,two sets of real numbers.)
-
-## Notes
-
-[^ †]:  use Google Colab notebooks to run Python. 
+[^ †]: I use Google Colab notebooks to run Python, though any environment will suffice. 
