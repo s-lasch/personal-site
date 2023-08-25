@@ -23,7 +23,7 @@ The cartesian product of two sets, $A$ and $B$, is denoted $A \times B$, and is 
 
 ###  Example
 
-Here’s how we can apply that formula using Python[^]:
+Here’s how we can apply that formula using Python[^2]:
 
 ```python
 # define two sets
