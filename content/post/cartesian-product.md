@@ -168,8 +168,11 @@ fig.show()
 If we want to create a plane, we just need to keep one of the axes constant, say $z$:
 
 ```python
+import plotly.graph_objs as go
+import numpy as np
+
 # define three sets
-X, Y, Z = set(range(1, 11)), set(range(1, 11)), [1 for i in range(1,11)] # keep z constant
+X, Y, Z = set(range(1, 11)), set(range(1, 11)), np.ones_like(range(1,11) # keep z constant at z = 1
 
 # apply cartesian product formula
 cartesian_product = [(x,y,z) for x in X for y in Y for z in Z]
