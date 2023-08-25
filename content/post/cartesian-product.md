@@ -19,7 +19,7 @@ This article covers a topic in discrete mathematics that often goes unnoticed in
 
 ## What is a Cartesian Product?
 
-The cartesian product of two sets, $A$ and $B$, is denoted $A \times B$, and is defined as such: $$A \times B = \{(a,b) \ | \ a \in A, \ b\in B \}$$ In plain English, it is the set of all possible ordered pairs whose first component comes from $A$, and whose second component comes from $B$[^1].
+The cartesian product of two sets, $A$ and $B$, is denoted $A \times B$, and is defined as such: \[A \times B = \{ (a,b) \ | \ a \in A, \ b\in B \} \] In plain English, it is the set of all possible ordered pairs whose first component comes from $A$, and whose second component comes from $B$[^1].
 
 ###  Example
 
