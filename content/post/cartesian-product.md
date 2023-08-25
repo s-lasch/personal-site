@@ -109,7 +109,7 @@ You will find that any two numbers plugged into this general formula corresponds
 
 ### $3$-Dimensional Plotting
 
-We can also use the cartesian product to generate what is referred to as a **meshgrid** in 3-Dimensional plotting. This involves creating a sort of blanket of points on a graph with 3 axes: $(x,y,z)$. 
+We can also use the cartesian product to generate what is referred to as a **meshgrid** in 3-Dimensional plotting. In fact, Numpy's [`meshgrid()`](https://numpy.org/doc/stable/reference/generated/numpy.meshgrid.html#:~:text=returns%20a%20meshgrid%20with%20Cartesian%20indexing) function unsurprisingly uses the cartesian product for its calculations. This involves creating a sort of blanket of points on a graph with 3 axes: $(x,y,z)$. 
 
 In this scenario, we are dealing with $\mathbb{R} \times \mathbb{R} \times \mathbb{R} = \mathbb{R}^3$, as there are three number lines expanding indefinitely.
 
