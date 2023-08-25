@@ -193,5 +193,5 @@ fig.show()
 
 [^1]: [ADS Cartesian Products and Power Sets (discretemath.org)](https://discretemath.org/ads/s-cartesian_Products_and_Power_Sets.html)
 [^2]: [SQL CROSS JOIN Explained By a Practical Example (sqltutorial.org)](https://www.sqltutorial.org/sql-cross-join/)
-[^3]: [Cartesian Product of Sets – The Math Doctors](https://www.themathdoctors.org/cartesian-product-of-sets/#:~:text=In particular%2C the Cartesian product,two sets of real numbers.)
+[^3]: [Cartesian Product of Sets – The Math Doctors](https://www.themathdoctors.org/cartesian-product-of-sets/)
 [^ †]: I use Google Colab notebooks to run Python, though any environment will suffice. 
