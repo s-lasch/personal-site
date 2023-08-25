@@ -23,7 +23,7 @@ The cartesian product of two sets, $A$ and $B$, is denoted $A \times B$, and is 
 
 ###  Example
 
-Here’s how we can apply that formula using Python[^†]:
+Here’s how we can apply that formula using Python[^]:
 
 ```python
 # define two sets
@@ -45,7 +45,7 @@ I have only listed a few of the applications of the cartesian product, though th
 
 ### SQL Table Joins
 
-Many examples of cartesian product exist in data science. One common example is an SQL **cross join**[^2].  Given two tables, a cross join applies the same formula as above to SQL tables. 
+Many examples of cartesian product exist in data science. One common example is an SQL **cross join**[^3].  Given two tables, a cross join applies the same formula as above to SQL tables. 
 
 ```sql
 -- TABLE 1
@@ -101,7 +101,7 @@ Which results in:
 
 ### Cartesian Plane
 
-What if our sets are larger than just three elements, say an infinite amount? In this scenario, we can use the set of all real integers, $\mathbb{R}$, and have $\mathbb{R} \times \mathbb{R}$, (often denoted as $\mathbb{R}^2$). That is, the cartesian product of the real number line with itself ***is*** the **cartesian plane**[^3].
+What if our sets are larger than just three elements, say an infinite amount? In this scenario, we can use the set of all real integers, $\mathbb{R}$, and have $\mathbb{R} \times \mathbb{R}$, (often denoted as $\mathbb{R}^3$). That is, the cartesian product of the real number line with itself ***is*** the **cartesian plane**[^4].
 
 $$\mathbb{R} \times \mathbb{R} = \{(x,y) \ | \ x,y \in \mathbb{R}\}$$
 
@@ -192,6 +192,6 @@ fig.show()
 ## References
 
 [^1]: [ADS Cartesian Products and Power Sets (discretemath.org)](https://discretemath.org/ads/s-cartesian_Products_and_Power_Sets.html)
-[^2]: [SQL CROSS JOIN Explained By a Practical Example (sqltutorial.org)](https://www.sqltutorial.org/sql-cross-join/)
-[^3]: [Cartesian Product of Sets – The Math Doctors](https://www.themathdoctors.org/cartesian-product-of-sets/)
-[^ †]: I use Google Colab notebooks to run Python, though any environment will suffice. 
+[^2]: I use Google Colab notebooks to run Python, though any environment will suffice. 
+[^3]: [SQL CROSS JOIN Explained By a Practical Example (sqltutorial.org)](https://www.sqltutorial.org/sql-cross-join/)
+[^4]: [Cartesian Product of Sets – The Math Doctors](https://www.themathdoctors.org/cartesian-product-of-sets/)
