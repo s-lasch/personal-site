@@ -59,15 +59,14 @@ df.shape    # get shape
 ``` python
 df.head()   # show first 5 rows
 ```
-``` text
-| sex   | length | diameter | height | whole_weight | shucked_weight | viscera_weight | shell_weight | rings |
---------------------------------------------------------------------------------------------------------------
-| M	| 0.455  | 0.365    | 0.095  | 0.5140       | 0.2245         | 0.1010         | 0.150        | 15    |
-| M	| 0.350  | 0.265    | 0.090  | 0.2255       | 0.0995         | 0.0485         | 0.070        | 7     |
-| F	| 0.530  | 0.420    | 0.135  | 0.6770       | 0.2565         | 0.1415         | 0.210        | 9     |
-| M	| 0.440  | 0.365    | 0.125  | 0.5160       | 0.2155         | 0.1140         | 0.155        | 10    |
-| I	| 0.330  | 0.255    | 0.080  | 0.2050       | 0.0895         | 0.0395         | 0.055        | 7     |
-```
+
+| **sex** | **length** | **diameter** | **height** | **whole_weight** | **shucked_weight** | **viscera_weight** | **shell_weight** | **rings** |
+| :-----: | :--------: | :----------: | :--------: | :--------------: | :----------------: | :----------------: | :--------------: | :-------: |
+| M	      | 0.455      | 0.365        | 0.095      | 0.5140           | 0.2245             | 0.1010             | 0.150            | 15        |
+| M	      | 0.350	   | 0.265	   	  | 0.090	   | 0.2255       	  | 0.0995             | 0.0485             | 0.070            | 7         |
+| F	      | 0.530	   | 0.420        | 0.135      | 0.6770           | 0.2565             | 0.1415             | 0.210            | 9         |
+| M	      | 0.440	   | 0.365        | 0.125      | 0.5160           | 0.2155             | 0.1140             | 0.155            | 10        |
+| I	      | 0.330	   | 0.255        | 0.080      | 0.2050           | 0.0895             | 0.0395             | 0.055            | 7         |
 
 ## **Processing the Data**
 We can see that there are three distinct classes---or categories---in the `sex` column: M, F, and I, which stand for Male, Female, and Infant. These represent the classes that our model is going to predict based on the other columns in the dataset. 
