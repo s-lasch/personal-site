@@ -1,4 +1,4 @@
-+++ 
++++
 author = "Steven Lasch" 
 title = "Neural Networks Practice Problem" 
 date = "2023-08-27" 
@@ -6,7 +6,7 @@ tags = ["neural networks", "ml", "projects", "data viz", "classification"]
 mathjax = true
 +++
 
-In this article, we will walk through an example of a classification problem that is more complex. For this approach, we will be using a neural network to determine the classes. 
+In this article, we will walk through an example of a classification problem that is more complex. For this approach, we will be using a neural network to determine the classes. I would recommend using an environment such as Google Colab that can run Jupyter Notebooks since all of the code in this article is written for that format.
 
 ## Introduction
 
@@ -83,7 +83,7 @@ class Model(nn.Module):
     	# pred is the probability of a positive result
         pred = self.forward(x) 
         
-        return 1 if pred >= .5 else 0
+        return [1, pred] if pred >= .5 else [0, pred]
 ```
 
 ## Training the Network
@@ -141,6 +141,19 @@ Here is a GIF that shows the visualization of the training process. It uses a [`
 
 <img src="https://rawcdn.githack.com/s-lasch/personal-site/acbfd88f4d623ace6dd3a4f741a402e7cc66817c/images/neural_network_example.gif" />
 
+The last step is to ask the model to classify a new point that it has never seen before. We’ll use the black point at $(-0.5, -0.4)$ for this. 
+
+```python
+# make a prediction
+print(model.predict(torch.tensor([-0.5, -0.4])))
+```
+
+```text
+[1, tensor([0.6090], grad_fn=<SigmoidBackward0>)]
+```
+
+This means that our model predicted `True` for the black point. Recall, that our prediction, $\hat{y}$, represents the probability that a given point is of the red class. With this in mind, the black point is to be put in the red class, with a $60.9\%$ probability.
+
 ## Completed Code
 
 Here is the completed code, with the visualization at the end.
@@ -170,7 +183,7 @@ class Model(nn.Module):
     
     def predict(self, x): 
         pred = self.forward(x)
-        return 1 if pred >= .5 else 0
+        return [1, pred] if pred >= .5 else [0, pred]
     
 ######################
 ### CREATE DATASET ###
