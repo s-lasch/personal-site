@@ -88,7 +88,7 @@ lineNoStart = 1
 lineNos = true
 lineNumbersInTable = true
 noClasses = false
-style = "dracula"
+style = "catppuccin-frappe"
 tabWidth = 4
 
 [markup.tableOfContents]
