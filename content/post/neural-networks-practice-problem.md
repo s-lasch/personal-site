@@ -152,7 +152,7 @@ print(model.predict(torch.tensor([-0.5, -0.4])))
 [1, tensor([0.6090], grad_fn=<SigmoidBackward0>)]
 ```
 
-This means that our model predicted `True` for the black point. Recall, that our prediction, $\hat{y}$, represents the probability that a given point is of the red class. With this in mind, the black point is to be put in the red class, with a $60.9\%$ probability.
+This means that our model predicted `True` for the black point. Recall, that our prediction, $\hat{y}$, represents the probability that a given point is of the red class. With this in mind, the black point is to be put in the red class, with a {{< math.inline >}}60.9%{{}} probability.
 
 ## Completed Code
 
