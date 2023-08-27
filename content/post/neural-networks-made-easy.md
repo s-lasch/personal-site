@@ -37,7 +37,6 @@ plt.show()
 Training a model to classify points based on this dataset must be done using a neural network. This is because we need multiple perceptrons working simultaneously for this model to produce accurate results.
 
 
-
 ## Neural Network Visually
 
 You have probably seen a graph representing a neural network before. The diagram below shows the flow of values from the input end to the output end. 
@@ -226,4 +225,4 @@ for i in range(epochs):
     optimizer.step()
 ```
 
-I hope you enjoyed this demonstration! :smile:
+I hope you enjoyed this demonstration!
