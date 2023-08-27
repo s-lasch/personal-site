@@ -1,13 +1,10 @@
----
-title: "Neural Networks Made Easy"
-date: 2023-08-27T10:14:00-04:00
-tags: ["neural networks", "ml", "projects", "data viz", "classification"]
-images: [
-    https://source.unsplash.com/58Z17lnVS4U/,
-]
-toc: true
-mathjax: true
----
++++ 
+author = "Steven Lasch" 
+title = "Neural Networks Made Easy" 
+date = "2023-08-27" 
+tags = ["neural networks", "ml", "projects", "data viz", "classification"] 
+mathjax = true
++++
 
 In this article, we will walk through an example of a classification problem that is more complex. For this approach, we will be using a neural network to determine the classes. 
 
