@@ -105,7 +105,7 @@ Now for the main part, which is training a model on our dataset. The process we 
 
 3. We use BCE as our loss algorithm, as it handles logarithms.
 
-4. We use the [`torch.optim.Adam()`]() optimizer because it changes learning rate dynamically.
+4. We use the [`torch.optim.Adam()`](https://pytorch.org/docs/stable/generated/torch.optim.Adam.html) optimizer because it changes learning rate dynamically.
 5. Train model for $x$ number of epochs so long as the model doesn’t overfit or underfit data.
 
 ```python
@@ -139,7 +139,7 @@ for i in range(epochs):
 
 ## Visualize the Training Process
 
-Here is a GIF that shows the visualization of the training process. It uses a [`contourf()`]() plot to show the decision boundaries between the red and blue classes. Areas with lighter color represent a reduced probability that a given data point is either red or blue, though any value $P \ge 0.5$ is considered red.
+Here is a GIF that shows the visualization of the training process. It uses a [`contourf()`](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.contourf.html) plot to show the decision boundaries between the red and blue classes. Areas with lighter color represent a reduced probability that a given data point is either red or blue, though any value $P \ge 0.5$ is considered red.
 
 ![](../images/neural_network_example.gif)
 
