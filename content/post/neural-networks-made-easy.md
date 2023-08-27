@@ -32,7 +32,7 @@ plt.scatter(X[Y==1, 0], X[Y==1, 1], color="red")
 plt.show()
 ```
 
-![](/images/neural_network_example.png)
+<img src="/images/neural_network_example.png" />
 
 Training a model to classify points based on this dataset must be done using a neural network. This is because we need multiple perceptrons working simultaneously for this model to produce accurate results.
 
@@ -42,7 +42,8 @@ Training a model to classify points based on this dataset must be done using a n
 
 You have probably seen a graph representing a neural network before. The diagram below shows the flow of values from the input end to the output end. 
 
-![](/images/neural_net_graph.png)
+<img src="/images/neural_net_graph.png" />
+
 
 We will have 2 inputs and a bias, a 4-node hidden layer using sigmoid activation function, and a single output: the probability that a given point is red. 
 
@@ -50,7 +51,8 @@ The reason we are using sigmoid as our activation function is because our model 
 
 The reason we are using 4 sigmoid functions is quite simple. Think of it this way: what we need to do is create a sort of perimeter around the data points. That will determine a threshold of sorts, where once a value has passed in either the $x_1$ or $x_2$ direction, a value becomes red.
 
-![](/images/neural_network_example_sigmoids.svg)
+<img src="/images/neural_network_example_sigmoids.svg" />
+
 
 ## Neural Network Programmatically
 
