@@ -50,7 +50,7 @@ Use display mode, `$$...$$` and `\[ ... \]`, or in-line math mode with `$...$` a
 $$f(x) = \frac{x^2}{2x-7}$$
 
 #### In-line
-Using the equation $E=mc^2$, we can see an example of in-line mathematics.
+Using the equation $E=mc^2$, we can see an example of in-line mathematics. Additionally, we can use the `{{< math.inline >}} ... {{}}` syntax for in-line equations.
 
 ## Tables
 
