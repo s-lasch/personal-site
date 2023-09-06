@@ -11,6 +11,7 @@ tags = [
     "plotly"
 ]
 mathjax = true
+plotly = true
 +++
 
 This article covers a topic in discrete mathematics that often goes unnoticed in data science and data visualization. Here I will attempt to show the relevance of the **cartesian product** in what we do as data scientists. 
@@ -164,6 +165,7 @@ fig.show()
 ```
 
 <iframe title="Scatter Cube" src="https://rawcdn.githack.com/s-lasch/personal-site/6ca58f39f2bea009898daadc7d72eb43255c2c78/images/scatter_cube.html" style="height: 500px; width:100%; border: none;" ></iframe>
+{{/*<plotly json="images/scatter_cube.json" height="400px">*/}}
 
 If we want to create a plane, we just need to keep one of the axes constant, say $z$:
 
@@ -191,6 +193,7 @@ fig.show()
 ```
 
 <iframe title="Scatter Plane" src="https://rawcdn.githack.com/s-lasch/personal-site/6ca58f39f2bea009898daadc7d72eb43255c2c78/images/scatter_plane.html" style="height: 500px; width:100%; border: none;" ></iframe>
+{{/*<plotly json="images/scatter_plane.json" height="400px">*/}}
 
 ## References
 
