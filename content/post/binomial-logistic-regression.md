@@ -43,14 +43,10 @@ right, negative results are blue and positive results are red.
 </p>
 
 ### **The Process**
-To do binomial logistic regression, we will need to do a variety of
-things:
-
-1.  Create a training dataset.
-
-2.  Use PyTorch to create our model.
-
-3.  Fit our data to the model.
+To implement binomial logistic regression, we will need to:
+1.  Create a random training dataset.
+2.  Build a PyTorch model with the correct number of inputs and outputs.
+3.  Train the model using our training dataset.
 
 The first step of our logistic regression problem is to create the
 training datset. First, we should set a seed to ensure the
