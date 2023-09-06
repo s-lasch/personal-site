@@ -193,7 +193,7 @@ fig.show()
 ```
 
 <iframe title="Scatter Plane" src="https://rawcdn.githack.com/s-lasch/personal-site/6ca58f39f2bea009898daadc7d72eb43255c2c78/images/scatter_plane.html" style="height: 500px; width:100%; border: none;" ></iframe>
-{{/*<plotly json="images/scatter_plane.json" height="400px">*/}}
+{{/*<plotly json="https://rawcdn.githack.com/s-lasch/personal-site/cb5143d8f01e0e8bd4af940fc4e0d0207d5c43c1/images/scatter_cube.html" height="400px">*/}}
 
 ## References
 
