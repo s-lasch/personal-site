@@ -1,4 +1,7 @@
 <header class="top" id="js-header">
+	{{ if .Params.plotly }}
+	    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+	{{ end }}
 	{{ partial "header_logo.html" . }}
 	{{ partial "header_menu.html" . }}
 	{{ partial "header_search.html" . }}
