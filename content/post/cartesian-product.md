@@ -164,7 +164,7 @@ fig = go.Figure(data=[go.Scatter3d(x=[i[0] for i in cartesian_product], # access
 fig.show()
 ```
 
-{{<plotly json="images/scatter_cube.json" height="500px">}}
+{{<plotly json="https://rawcdn.githack.com/s-lasch/personal-site/3de3730839393851300294bd5d2c3447d8a0e468/images/scatter_cube.json" height="500px">}}
 
 If we want to create a plane, we just need to keep one of the axes constant, say $z$:
 
@@ -191,8 +191,7 @@ fig = go.Figure(data=[go.Scatter3d(x=[i[0] for i in cartesian_product],
 fig.show()
 ```
 
-<iframe title="Scatter Plane" src="https://rawcdn.githack.com/s-lasch/personal-site/6ca58f39f2bea009898daadc7d72eb43255c2c78/images/scatter_plane.html" style="height: 500px; width:100%; border: none;" ></iframe>
-{{<plotly json="https://rawcdn.githack.com/s-lasch/personal-site/cb5143d8f01e0e8bd4af940fc4e0d0207d5c43c1/images/scatter_cube.html" height="400px">}}
+{{<plotly json="https://rawcdn.githack.com/s-lasch/personal-site/3de3730839393851300294bd5d2c3447d8a0e468/images/scatter_plane.json" height="500px">}}
 
 ## References
 
