@@ -1,12 +1,12 @@
 +++
 author = "Steven Lasch" 
-title = "Neural Networks Practice Problem" 
+title = "Neura Networks Practice Problem" 
 date = "2023-08-27" 
 tags = ["neural networks", "ml", "projects", "data viz", "classification"] 
 mathjax = true
 +++
 
-In this article, we will walk through an example of a classification problem that is more complex. For this approach, we will be using a neural network to determine the classes. I would recommend using an environment such as Google Colab that can run Jupyter Notebooks since all of the code in this article is written for that format.
+In this article, we will walk through an example of a classification problem that is more complex. For this approach, we will be implementing a simple feed-forward neural network to determine the classes. I would recommend using an environment such as Google Colab that can run Jupyter Notebooks since all of the code in this article is written for that format.
 
 ## Introduction
 
