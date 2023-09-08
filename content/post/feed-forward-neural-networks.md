@@ -1,6 +1,6 @@
 +++
 author = "Steven Lasch" 
-title = "Neura Networks Practice Problem" 
+title = "Feed-Forward Neural Network Example" 
 date = "2023-08-27" 
 tags = ["neural networks", "ml", "projects", "data viz", "classification"] 
 mathjax = true
