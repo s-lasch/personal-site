@@ -43,7 +43,8 @@ You have probably seen a graph representing a neural network before. The diagram
 
 We will have 2 inputs and a bias, a 4-node hidden layer using sigmoid activation function, and a single output: the probability that a given point is red. 
 
-The reason we are using sigmoid as our activation function is because our model classifies new points based on a probability. As we know, the values of sigmoid lie between 0 and 1. Since probabilities can only exist between those values, sigmoid is the right choice.
+But how can we standardize the outputs of our model to resemble a probability? Enter [sigmoid](https://en.wikipedia.org/wiki/Sigmoid_function#Properties:~:text=Thus%20the%20cumulative%20distribution%20functions%20for%20many%20common%20probability%20distributions%20are%20sigmoidal.).
+The reason we are using sigmoid as our activation function is because our model classifies new points based on a probability, which we will call $\hat{y}$ (pronounced "y hat"). The output of the sigmoid function lies between 0 and 1. This is perfect for us since probabilities can only exist between those values, and so sigmoid is the right choice.
 
 The reason we are using 4 sigmoid functions is quite simple. Think of it this way: what we need to do is create a sort of perimeter around the data points. That will determine a threshold of sorts, where once a value has passed in either the $x_1$ or $x_2$ direction, a value becomes red.
 
