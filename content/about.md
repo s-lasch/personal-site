@@ -14,4 +14,4 @@ Hello! My name is Steven Lasch, and I am currently a senior at Mercyhurst Univer
 
 My love for programming and fascination with language led me to incorporate natural language processing into my major. I find it exciting to be able to use technology to translate, analyze, and interpret language. 
 
-Around campus you can probably find me in the Campus Ministry lounge, or in any of the Data Science labs under the library. Thanks for taking the time to visit my site and learn a little more about me!
+Thanks for taking the time to visit my site and learn a little more about me!
