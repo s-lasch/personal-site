@@ -12,7 +12,7 @@ page: true
 #### *Central Michigan University, USA*
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/s-lasch/s-lasch.github.io/main/images/aibthings" alt="Article submission presentation conference." style="width:60%"/>
+    <img src="https://raw.githubusercontent.com/s-lasch/personal-site/master/images/aibthings.png" alt="Article submission presentation conference." style="width:60%"/>
 <p align="center">ASL to English paper presentation for publication September 17, 2023</p>
 </p>
 
