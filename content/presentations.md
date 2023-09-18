@@ -13,7 +13,7 @@ page: true
 
 <p align="center">
     <img src="https://raw.githubusercontent.com/s-lasch/personal-site/master/images/aibthings.png" alt="Article submission presentation conference." style="width:100%"/>
-<p align="center"><a href="https://aibthings.com/assets/docs/AIBThings-2023-Program.pdf" target="blank">(Conference program)</a> -- ASL to English paper presentation for publication September 17, 2023</p>
+<p align="center"><a href="https://aibthings.com/assets/docs/AIBThings-2023-Program.pdf" target="_blank">(Conference program)</a> -- ASL to English paper presentation for publication September 17, 2023</p>
 </p>
 
 ---
