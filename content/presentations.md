@@ -8,6 +8,16 @@ share: false
 page: true
 ---
 
+### **IEEE International Conference on Artificial Intelligence, Blockchain and Internet of Things**
+#### *Central Michigan University, USA*
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/s-lasch/s-lasch.github.io/main/images/aibthings" alt="Article submission presentation conference." style="width:60%"/>
+<p align="center">ASL to English paper presentation for publication September 17, 2023</p>
+</p>
+
+---
+
 ### **Illumination Student Scholarship, 2023**
 #### *Mercyhurst University, Erie, PA*
 
@@ -15,7 +25,6 @@ page: true
     <img src="https://raw.githubusercontent.com/s-lasch/s-lasch.github.io/main/images/illumination.jpg" alt="Illumination Poster Presentation" style="width:60%"/>
 <p align="center">ASL to English Translation Poster Presentation with Hunter Phillips April 18, 2023</p>
 </p>
-
 
 ---
 
