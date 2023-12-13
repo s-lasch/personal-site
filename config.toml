@@ -14,6 +14,7 @@ job = "Data Scientist"
 name = "Steven Lasch"
 
 [Params]
+favicon = "/images/brain-solid.ico"
 GoogleAnalytics = ""
 authorbox = true
 comments = true
