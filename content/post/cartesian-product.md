@@ -102,7 +102,7 @@ Which results in:
 
 ### Cartesian Plane
 
-What if our sets are larger than just three elements, say an infinite amount? In this scenario, we can use the set of all real integers, $\mathbb{R}$, and have $\mathbb{R} \times \mathbb{R}$, (often denoted as $\mathbb{R}^3$). That is, the cartesian product of the real number line with itself ***is*** the **cartesian plane**[^4].
+What if our sets are larger than just three elements, say an infinite amount? In this scenario, we can use the set of all real numbers, $\mathbb{R}$, and have $\mathbb{R} \times \mathbb{R}$, (often denoted as $\mathbb{R}^3$). That is, the cartesian product of the real number line with itself ***is*** the **cartesian plane**[^4].
 
 $$\mathbb{R} \times \mathbb{R} = \{(x,y) \ | \ x,y \in \mathbb{R}\}$$
 
